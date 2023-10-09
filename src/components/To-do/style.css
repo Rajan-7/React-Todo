@@ -1,0 +1,11 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    background-color: black;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}

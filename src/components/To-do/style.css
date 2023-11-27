@@ -1,16 +1,36 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Source Sans Pro", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
 }
-.main-container{
-    min-height: 100vh;
-    background:#060822;
-    display: flex;
-    justify-content: center;
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4rem;
+
+  & .sub-container {
+    font-size: 1.5rem;
+
+    & figure {
+      & img {
+        height: 12rem;
+        width: 14rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    & .add-btn{
+        cursor: pointer;
+    }
+  }
 }
